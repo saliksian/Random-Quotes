@@ -54,4 +54,23 @@
     font-size: 1rem;
     cursor: pointer;
   }
+  #tweet-quote {
+    background-color: #1da1f2;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  #tweet-quote:hover {
+    background-color: #0c8ec9;
+  }
+  
+  #tweet-quote i {
+    margin-right: 5px;
+  }
+
+
   
