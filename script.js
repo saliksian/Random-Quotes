@@ -8,7 +8,7 @@ async function getQuote() {
   document.getElementById('quote').textContent = content;
   document.getElementById('author').textContent = `— ${author}`;
   
-  const tweetUrl = `https://twitter.com/intent/tweet?text=${quote} - ${author}`;
+  const tweetUrl = `https://twitter.com/intent/tweet?text=${content} - ${author}`;
   twitterButton.setAttribute('href', tweetUrl);
 }
 
